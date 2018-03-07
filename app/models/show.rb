@@ -25,5 +25,6 @@ class Show < ActiveRecord::Base
 
   def self.shows_by_alphabetical_order
     binding.pry
+    order("name")
   end
 end
