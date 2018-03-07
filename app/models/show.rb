@@ -16,6 +16,7 @@ class Show < ActiveRecord::Base
   end
 
   def self.ratings_sum
+    binding.pry
     sum("rating")
   end
 
