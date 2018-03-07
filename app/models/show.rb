@@ -11,7 +11,7 @@ class Show < ActiveRecord::Base
     minimum(:rating)
   end
 
-  def least_popular_show
+  def self.least_popular_show
     binding.pry
   end
 
